@@ -4,12 +4,11 @@ The purpose of this file is to test the logging framework
 """
 
 
-
 from logging_module import init
 import logging
 
 # Initialise the logging framework cofiguration
-init("test",level=logging.DEBUG)
+init("ds_project_backend",level=logging.DEBUG)
 
 # Set up the logger
 logger = logging.getLogger(__name__)
